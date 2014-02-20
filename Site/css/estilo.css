@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	padding-top: 0px;
+}
+
+.we{
+	padding: 0 1% 10px 0;
+	width: 38.9%;
+	height: auto;
+	max-height: 103px;
+	background-color: #4B4B4D;
+	text-align: right;
+	font-size: 90px;
+	font-family: Kozuka gothic pro h;
+	color: #FFFFFF;
+}
+
+.make{
+	width: 39.9%;
+	height: auto;
+}
