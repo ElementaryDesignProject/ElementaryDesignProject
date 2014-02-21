@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0; }
+  body .center-v {
+    vertical-align: middle;
+    display: table-cell; }
+  body .center-h {
+    text-align: center;
+    margin: 0 auto; }
+  body .slide, body .slide1, body .slide2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #666; }
