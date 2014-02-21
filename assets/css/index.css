@@ -1,8 +1,89 @@
+@font-face {
+  font-family: 'Aharoni Bold';
+  font-weight: bold;
+  src: url("../fonts/ahronbd.ttf"); }
+
 body {
   margin: 0;
   padding: 0;
   top: 0;
-  left: 0; }
+  left: 0;
+  /* asduhasuhduhasduhasduh */ }
+  body header {
+    padding-top: 80px;
+    text-align: center;
+    height: 70%;
+    max-height: 70%; }
+  body h1 {
+    margin: 0;
+    padding: 0; }
+  body .slide1 {
+    background-color: #F1F1F2; }
+    body .slide1 .left {
+      width: 23.1%;
+      height: 100%;
+      min-width: 23.1%;
+      display: inline-block;
+      float: left; }
+      body .slide1 .left .black {
+        background-color: #4b4b4d;
+        max-height: 103px;
+        height: 103px; }
+    body .slide1 .right {
+      width: 23.1%;
+      display: inline-block;
+      height: 100%; }
+    body .slide1 .full-text {
+      width: 53.8%;
+      max-width: 700px;
+      float: left;
+      text-align: left;
+      display: inline-block;
+      position: relative; }
+      body .slide1 .full-text .we-make {
+        display: inline-block;
+        width: 100%;
+        float: left;
+        text-align: left;
+        position: relative; }
+        body .slide1 .full-text .we-make .we {
+          background-color: #4b4b4d;
+          width: auto;
+          display: inline;
+          float: left;
+          max-height: 103px;
+          height: 103px;
+          font-size: 110px;
+          font-family: 'kozuka gothic pro h';
+          font-weight: bold;
+          color: #FFF;
+          line-height: 100px; }
+        body .slide1 .full-text .we-make .make {
+          display: inline;
+          margin: 0 0 0 2.3%;
+          position: absolute;
+          bottom: 0;
+          font-size: 80px;
+          font-family: 'kozuka gothic pro h';
+          font-weight: bold;
+          color: #ed2f59;
+          line-height: 60px; }
+      body .slide1 .full-text .design-for-you {
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: left;
+        position: relative; }
+        body .slide1 .full-text .design-for-you .design {
+          font-size: 190px;
+          color: #4b4b4d; }
+        body .slide1 .full-text .design-for-you .for-you {
+          font-size: 100px;
+          line-height: 20px;
+          float: right;
+          color: #00afef; }
+  body .slide2 {
+    background-color: #666; }
   body .center-v {
     vertical-align: middle;
     display: table-cell; }
@@ -11,5 +92,4 @@ body {
     margin: 0 auto; }
   body .slide, body .slide1, body .slide2 {
     width: 100%;
-    height: 100vh;
-    background-color: #666; }
+    min-height: 100%; }

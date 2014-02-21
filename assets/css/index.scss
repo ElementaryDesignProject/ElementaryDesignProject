@@ -1,3 +1,17 @@
+// Fonts
+// @font-face{
+// 	font-family: 'Kozuka Gothic Pro';
+// 	font-weight: bold;
+// 	src: url('../fonts/KozGoPro-Heavy.otf') format('opentype');
+// }
+
+@font-face{
+	font-family: 'Aharoni Bold';
+	font-weight: bold;
+	src: url('../fonts/ahronbd.ttf'); // format('opentype');
+}
+
+
 body{
 
 	margin: 0;
@@ -6,16 +20,117 @@ body{
 	left: 0;
 
 	header{
+		padding-top: 80px;
+		text-align: center;
+		height: 70%;
+		max-height: 70%;
+	}
 
+	h1{
+		margin: 0;
+		padding: 0;
 	}
 
 	.slide1{
 		@extend .slide;
+		background-color: #F1F1F2;
 
+		.left{
+			width: 23.1%;
+			height: 100%;
+			min-width: 23.1%;
+			display: inline-block;
+			float: left;
+
+			.black{
+				background-color: #4b4b4d;
+				max-height: 103px;
+				height: 103px;
+			}
+		}
+
+		.right{
+			width: 23.1%;
+			display: inline-block;
+			height: 100%;
+		}
+
+		.full-text{
+			width: 53.8%;
+			max-width: 700px;
+			float: left;
+			text-align: left;
+			display: inline-block;
+			position: relative;
+			
+			.we-make{
+				display: inline-block;
+				width: 100%;
+				float: left;
+				text-align: left;
+				position: relative;
+
+				.we{
+					background-color: #4b4b4d;
+					width: auto;
+					display: inline;
+					float: left;
+					max-height: 103px;
+					height: 103px;
+
+					// Font
+					font-size: 110px;
+					font-family: 'kozuka gothic pro h';
+					font-weight: bold;
+					color: #FFF;
+
+					line-height: 100px;
+				}
+
+				.make{
+					display: inline;
+					margin: 0 0 0 2.3%;
+					position: absolute;
+					bottom: 0;
+
+					// Font
+					font-size: 80px;
+					font-family: 'kozuka gothic pro h';
+					font-weight: bold;
+					color: #ed2f59;
+
+					line-height: 60px;
+				}
+			}
+
+			.design-for-you{
+				display: block;
+				width: 100%;
+				float: left;
+				text-align: left;
+				position: relative;
+
+				.design{
+					font-size: 190px;
+					color: #4b4b4d;
+				}
+
+				.for-you{
+					font-size: 100px;
+					line-height: 20px;
+					float: right;
+					color: #00afef;
+				}
+
+			}
+			
+
+		}
 	}
 
 	.slide2{
 		@extend .slide;
+		background-color: #666;
 	}
 
 	.center-v{
@@ -30,9 +145,13 @@ body{
 
 	.slide{
 		width: 100%;
-		height: 100vh;
-		background-color: #666;
+		min-height: 100%;
 	}
+
+
+
+
+	/* asduhasuhduhasduhasduh */
 
 }
 
