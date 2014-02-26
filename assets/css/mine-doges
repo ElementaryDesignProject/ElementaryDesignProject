@@ -1,0 +1,15 @@
+setInterval(function(){
+var numberOfDoges =  $('#mined').text().replace( /^\D+/g, '');
+numberOfDoges = numberOfDoges.replace(',','.');
+numberOfDoges = parseInt(numberOfDoges);
+
+var price =  $('#kennelcost').text().replace( /^\D+/g, '');
+price = price.replace(' doge.', '');
+price = price.replace(',', '.');
+price = parseInt(price);
+
+if(price < numberOfDoges){
+	$('#buykennel').children().last().click();
+}
+console.log("Disparou");
+}, 10000);

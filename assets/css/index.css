@@ -3,6 +3,10 @@
   font-weight: bold;
   src: url("../fonts/ahronbd.ttf"); }
 
+@font-face {
+  font-family: MicrosoftSans;
+  src: url("../fonts/micross.ttf"); }
+
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +17,10 @@ body {
     padding-top: 80px;
     text-align: center;
     height: 70%;
-    max-height: 70%; }
+    max-height: 70%;
+    float: none; }
+    body header .separator {
+      float: none; }
   body h1 {
     margin: 0;
     padding: 0; }
@@ -80,7 +87,7 @@ body {
         body .slide1 .full-text .design-for-you .for-you {
           font-size: 100px;
           line-height: 20px;
-          float: right;
+          float: none;
           color: #00afef; }
   body .slide2 {
     background-color: #666; }
@@ -93,3 +100,107 @@ body {
   body .slide, body .slide1, body .slide2 {
     width: 100%;
     min-height: 100%; }
+  body .windows {
+    width: 300px;
+    height: 150px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    text-align: center;
+    box-shadow: 7px 7px #9c9292;
+    display: inline-block; }
+    body .windows .top {
+      height: 30px;
+      background: -moz-linear-gradient(left, teal, #5fcccc) repeat-x;
+      background: -webkit-gradient(linear, left top, right top, from(teal), to(#5fcccc)) repeat-x;
+      border-bottom: 1px solid #000; }
+      body .windows .top .close {
+        float: right;
+        margin-right: 5px;
+        margin-top: 3px;
+        width: 20px;
+        height: 20px;
+        background-color: #e74646;
+        border: 1px solid #000; }
+      body .windows .top .close:before {
+        content: 'x';
+        color: #FFF; }
+    body .windows .content {
+      padding-top: 35px;
+      font-family: 'Comic Sans MS';
+      font-weight: 200;
+      font-size: 18px; }
+    body .windows .button {
+      margin: 15px auto 0 auto;
+      background-color: #ccd6d6;
+      border: 1px solid #a3a3a3;
+      box-shadow: 1px 1px 1px #8b8b8b;
+      width: 120px;
+      height: 20px; }
+  body .comparison {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    float: none; }
+  body .arrow {
+    margin: 0px 50px;
+    display: inline-block;
+    heigh: 30px;
+    width: 15%; }
+    body .arrow .base {
+      float: left;
+      width: 87%;
+      height: 10px;
+      margin-top: 18px;
+      background-color: #000; }
+    body .arrow .arrow-inside {
+      width: 0px;
+      height: 0px;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-left: 25px solid #000;
+      float: left; }
+  body .elementary {
+    width: 300px;
+    height: 150px;
+    background-color: #FFF;
+    border: 1px solid #b4bdbd;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 3px 3px 4px #9c9292;
+    display: inline-block;
+    margin: 0 0 0px 0px; }
+    body .elementary .top {
+      height: 30px;
+      background-color: #ccd6d6;
+      border-bottom: 1px solid #b4bdbd;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em; }
+      body .elementary .top .close {
+        float: left;
+        margin-left: 8px;
+        margin-top: 8px;
+        width: 15px;
+        height: 15px;
+        background-color: #ff0000;
+        border-radius: 50%; }
+      body .elementary .top .minimize {
+        float: left;
+        margin-left: 5px;
+        margin-top: 8px;
+        width: 15px;
+        height: 15px;
+        background-color: #42b8e3;
+        border-radius: 50%; }
+    body .elementary .content {
+      padding-top: 25px;
+      line-height: 25px;
+      font-weight: 200;
+      font-size: 22px; }
+    body .elementary .button {
+      margin: 15px auto 0 auto;
+      background-color: #ccd6d6;
+      color: #746f6f;
+      width: 150px;
+      height: 25px;
+      border-radius: 1em;
+      padding-top: 5px; }
